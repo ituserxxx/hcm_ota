@@ -118,7 +118,7 @@ async fn upload_token(form: web::Form<FormData>)->Result<HttpResponse, Error> {
     Ok(HttpResponse::Ok().body(format!("token update succ: {}", form.token)))
 }
  
- // 保存上传的文件
+ // 保存上传文件
 async fn save_file(mut field: actix_multipart::Field) -> Result<(), Error>  {
     // 获取文件的原始文件名
     let content_disposition = field.content_disposition().clone();
