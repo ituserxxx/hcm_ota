@@ -1,4 +1,17 @@
-{
-  "token": "adsfasdf",
-  "bin": "a.yml"
-}
+[
+  {
+    "id": 1,
+    "token": "a1.js",
+    "bin": "a1.js"
+  },
+  {
+    "id": 2,
+    "token": "ssss22",
+    "bin": "a1.js"
+  },
+  {
+    "id": 3,
+    "token": "ssss33",
+    "bin": "61flow-9-14.json"
+  }
+]
